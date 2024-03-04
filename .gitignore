@@ -344,3 +344,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,macos,windows,intellij+all,visualstudiocode
+
+data/
+
+docker-compose.yml
