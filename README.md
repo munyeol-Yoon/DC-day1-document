@@ -1,73 +1,31 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# DevCamp Day 1
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+### 서론
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+[NestJS 공식문서](https://docs.nestjs.com/)
 
-## Description
+[TypeORM 공식문서](https://typeorm.io/)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+공식문서를 바탕으로 유저생성을 만들어 보았습니다.
 
-## Installation
+가장 인상적이었던 것은 모듈화되어있는 구조였습니다.
 
-```bash
-$ npm install
-```
+기존 express 에서는 구조를 갖추기위해 시간을 투자해야했고, 협업하는 팀원간 작성하는 형식도 달라 일관성있게 작성하는데에 번거로움이 존재했습니다.
 
-## Running the app
+NestJS 는 모듈화된 형식을 제공했고, 쉽게 관리할 수 있을 것 같습니다.
 
-```bash
-# development
-$ npm run start
+계층 구조와 강력한 데코레이터를 보니 Spring 과 많이 유사하다고 느꼈습니다.
 
-# watch mode
-$ npm run start:dev
+---
 
-# production mode
-$ npm run start:prod
-```
+### 이론
 
-## Test
+학습한 내용은 현제 Repository 의 docs 폴더에 작성해놓았습니다.
 
-```bash
-# unit tests
-$ npm run test
+아래는 해당 파일의 주소입니다.
 
-# e2e tests
-$ npm run test:e2e
+[DI-IoC.md](https://github.com/munyeol-Yoon/DC-day1-document/blob/main/docs/DI-IoC.md)
 
-# test coverage
-$ npm run test:cov
-```
+[Request-lifeCycle.md](https://github.com/munyeol-Yoon/DC-day1-document/blob/main/docs/Request-lifeCycle.md)
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+---
